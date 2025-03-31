@@ -1,0 +1,21 @@
+.box-container{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 40px;
+    background: transparent;
+    margin: 0 20px;
+}
+.box-container:hover{
+    border-color: #ff8800;
+    transition: .2s;
+}
+.box-container img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.box-container h2{
+    color: #fff;
+    font-size: 25px;
+}
