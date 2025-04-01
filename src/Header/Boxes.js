@@ -1,10 +1,9 @@
 import './Boxes.css';
-import icon from '../assets/images/calendar.png'
-export default function Boxes(){
+export default function Boxes({image, title}){
     return(
         <div className="box-container">
-            <img src={icon} alt="icon" />
-            <h2>نمونه کارها</h2>
+            <img src={image} alt="icon" />
+            <h2>{title}</h2>
         </div>
     )
 }

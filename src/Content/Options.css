@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.option-container{
+    text-align: right;
+}
+.option-container img{
+    width: 25px;
+    padding-left: 5px;
+}

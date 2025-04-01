@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px;
+}
+.about-image img{ 
+    width: 650px;
+}
+.about-text{
+    text-align: right;
+    padding: 0 0 0 35px;
+    line-height: 1.4;
+    
+}
+.about-text h1{
+    color: #555555;
+    font-size: 38px;
+}
+.about-text p{
+    font-size: 22px;
+    color: #373737;
+    text-align: justify;
+
+}
