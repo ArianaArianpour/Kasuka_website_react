@@ -26,5 +26,13 @@
     font-size: 22px;
     color: #373737;
     text-align: justify;
-
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+.features img{
+    width: 650px;
 }

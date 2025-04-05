@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-container{
+    padding: 25px 60px;
+}
+.slider img{
+    width: 100px;
+    height: 40px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+.slider img:hover{
+    filter: none;
+}

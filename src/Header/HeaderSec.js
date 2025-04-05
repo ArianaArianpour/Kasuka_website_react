@@ -27,7 +27,6 @@ export default function HeaderSec(){
                 <Boxes {...BoxesData[3]}/>
                 <Boxes {...BoxesData[4]}/>
             </div>
-
         </div>
     );
 }
