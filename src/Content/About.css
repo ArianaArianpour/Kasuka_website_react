@@ -15,23 +15,22 @@
 .about-text{
     text-align: right;
     padding: 0 0 0 35px;
-    line-height: 1.4;
-    
+    line-height: 1.5;
 }
 .about-text h1{
     color: #555555;
     font-size: 38px;
 }
 .about-text p{
-    font-size: 22px;
+    font-size: 20px;
     color: #373737;
-    text-align: justify;
+    text-align: right;
 }
 .features{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 7px 100px;
 }
 .features img{
     width: 650px;

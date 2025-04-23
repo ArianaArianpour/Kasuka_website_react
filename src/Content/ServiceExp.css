@@ -1,0 +1,43 @@
+.exp-container{
+    margin: 0 0 50px 0;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/header_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.exp-info{
+    padding: 50px 100px;
+    text-align: right;
+    color: #ffff;
+}
+.exp-info .exp-header{
+    text-align: center;
+}
+.exp-info .exp-text{
+    font-size: 20;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.explore{
+    text-align: center;
+}
+.btn-explore{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    background: transparent;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+}
+.btn-explore:hover{
+    border: none;
+    background: #ff8800;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .7s;
+}
